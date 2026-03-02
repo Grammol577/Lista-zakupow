@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista Zakupów</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<div class="container">
+    <h2>🛒Moja Lista</h2>
+    
+    <div class="controls">
+        <input type="text" id="productInput" placeholder="Co kupić?">
+        <button id="addStart">Dodaj na początku</button>
+        <button id="addEnd">Dodaj na końcu</button>
+        <button id="removeLast">Usuń ostatni</button>
+        <button id="clearList">Wyczyść listę</button>
+        <button id="restoreList">Przywróć wzór</button>
+        <button id="sortAlpha">Sortuj A-Z</button>
+        <button id="colorEven">Pokoloruj co drugi</button>
+        <button id="resetEven">Odznacz kolory</button>
+    </div>
+
+    <input type="text" id="filterInput" placeholder="Szukaj produktu...">
+    
+    <ul id="shoppingList">
+        </ul>
+</div>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
