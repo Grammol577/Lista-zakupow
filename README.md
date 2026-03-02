@@ -1,7 +1,7 @@
 # Lista-zakupow
 
 1. Metody wstawiania elementów
-
+ 
 append() – Wstawia treść na samym końcu wewnątrz wybranego elementu (jako ostatnie dziecko).                                                                                                
 prepend() – Wstawia treść na samym początku wewnątrz wybranego elementu (jako pierwsze dziecko).
 
